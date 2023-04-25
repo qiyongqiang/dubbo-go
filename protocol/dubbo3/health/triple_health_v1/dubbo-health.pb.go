@@ -22,7 +22,7 @@
 // versions:
 // 	protoc-gen-go v1.28.0
 // 	protoc        v3.20.1
-// source: protocol/dubbo3/health/triple_health_v1/health.proto
+// source: protocol/dubbo3/health/triple_health_v1/dubbo-health.proto
 
 package triple_health_v1
 

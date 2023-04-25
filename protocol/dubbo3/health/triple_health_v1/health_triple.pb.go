@@ -19,7 +19,7 @@
 // versions:
 // - protoc-gen-go-triple v1.0.8
 // - protoc             v3.20.1
-// source: protocol/dubbo3/health/triple_health_v1/health.proto
+// source: protocol/dubbo3/health/triple_health_v1/dubbo-health.proto
 
 package triple_health_v1
 
@@ -282,5 +282,5 @@ var Health_ServiceDesc = grpc_go.ServiceDesc{
 			ServerStreams: true,
 		},
 	},
-	Metadata: "protocol/dubbo3/health/triple_health_v1/health.proto",
+	Metadata: "protocol/dubbo3/health/triple_health_v1/dubbo-health.proto",
 }
