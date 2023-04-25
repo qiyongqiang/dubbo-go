@@ -19,7 +19,6 @@ package dubbo3
 
 import (
 	"context"
-	"fmt"
 )
 
 import (
@@ -46,7 +45,7 @@ func newGreeterProvider() *greeterProvider {
 }
 
 func (g *greeterProvider) SayHello(ctx context.Context, req *internal.HelloRequest) (reply *internal.HelloReply, err error) {
-	fmt.Printf("req: %v", req)
+	//fmt.Printf("req: %v", req)
 	return &internal.HelloReply{Message: "this is message from reply"}, nil
 }
 
